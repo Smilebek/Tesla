@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    background-image: url("../img/Picture\ →\ Homepage-Model-3-Desktop-NA.jpg.png");
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-box {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header-vehicle {
+    margin-left: 233px;
+}
+
+.header-box_list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: all 0.8s ease;
+}
+
+.header-box_link {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    transition: all 0.8s ease;
+}
+
+.header-box_link:hover {
+    color: black;
+}
+
+.header-box_link:active {
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.header-link {
+    padding: 12px 57px 12px 57px;
+    margin-left: 282px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    transition: all 0.8s ease;
+}
+
+.header-link:hover {
+    color: black;
+    background-color: #FFF;
+    
+}
+
+/* MAIN STYLE START */
+
+.main-box {
+    padding-top: 309px;
+    text-align: center;
+}
+
+.main-title {
+    color: #FFF;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 41px;
+}
+
+.main-text {
+    width: 302px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    margin: 0 auto;
+    margin-bottom: 41px;
+}
+
+.main-box-link {
+    display: inline-flex;
+    min-width: 264px;
+    padding: 11px 96px 11px 96px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 3px solid #FFF;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    transition: all 0.8s ease;
+}
+
+.main-box-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.main-box-link:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
